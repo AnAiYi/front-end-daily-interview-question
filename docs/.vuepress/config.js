@@ -43,6 +43,22 @@ module.exports = {
           { title: "泛型", path: "/handbook/Generics" },
         ],
       },
+      {
+        title: "Daily Question",
+        path: "/issues/day01",
+        collapsable: false, // 不折叠
+        children: [
+          { title: "写 React / Vue项目时,为什么要在列表组件中写 key,作用是什么", path: "/issues/day01" },
+        ],
+      },
+      {
+        title: "Project difficulties",
+        path: "/project/day01",
+        collapsable: false, // 不折叠
+        children: [
+          { title: "现代图片性能优化", path: "/project/day01.md" },
+        ],
+      },
     ],
   },
 };
